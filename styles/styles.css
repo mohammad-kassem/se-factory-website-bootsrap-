@@ -45,7 +45,6 @@ body{
     
 }
 
-
 .statistic{
     padding: 70px 70px;
 }
@@ -85,9 +84,60 @@ body{
     line-height: 1.6;
 }
 
+
 .learn-link{
     color: #0d0;
     font-size: calc((1.3 - 1) * 1.2vw + 1rem);
     margin: 10px 0 0 5.5vw;
 }
+
+.programs-background{
+    background-color: #0d0;
+    padding: 50px 0;
+}
+
+.programs-jumbotron{
+    color: white;
+    background: transparent;
+    padding: 0;
+    margin: 0px 0 15px 0;
+}
+
+.programs-jumbotron h2{
+    font-size: calc((3 - 1) * 1.2vw + 1rem);
+    font-weight: normal;
+    padding: 10px 0;
+    margin: 0;
+
+}
+
+.graduate{
+    margin: 40px 5vw;
+}
+
+.graduate-jumbotron{
+    background: transparent;
+    padding: 40px 0 0 2vw;
+    margin: 0;
+}
+
+
+.graduate-jumbotron h2{
+    font-size: calc((3 - 1) * 1.2vw + 1rem);
+    font-weight: normal;
+    margin: 0 0 25px 0;
+}
+
+.graduate-jumbotron p{
+    font-size: calc((1.6 - 1) * 1.2vw + 1rem);
+    margin: 0 5%;
+    line-height: 1.6;
+}
+
+.graduate-link{
+    color: #0d0;
+    font-size: calc((1.3 - 1) * 1.2vw + 1rem);
+    margin: 10px 0 0 5.5vw;
+}
+
 
