@@ -1,0 +1,47 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header-background{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../assets/presentation.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-navbar{
+    padding: 1.1vh 5vw;
+
+}
+
+
+.header-jumbotron{
+    color: white;
+    background: transparent;
+    padding: 35vh 0 1.1vh 5vw;
+}
+
+.header-h1{
+    font-size: calc((3.5 - 1) * 1.2vw + 1rem);
+    line-height: 1.17;
+    padding: 0 0 10px 0;
+}
+
+.header-p{
+    font-size: calc((1.6 - 1) * 1.2vw + 1rem);
+    padding: 10px 0 10px 0;
+}
+
+.header-button{
+    color: white;
+    background-color: #0d0;
+    padding: 10px 20px;
+    margin: 17px 0 17px 6vw;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 0.8em;
+    font-weight: bold;
+    
+}
+
