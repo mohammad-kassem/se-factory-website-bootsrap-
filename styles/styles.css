@@ -15,16 +15,25 @@ body{
 
 }
 
+nav ul li a {
+    color: white;
+    font-weight: bold;
+  }
+
+ul.medium-screen{
+    display: none;
+}
 
 .header-jumbotron{
     color: white;
     background: transparent;
-    padding: 35vh 0 1.1vh 5vw;
+    padding: 35vh 0 0 5.5vw;
+    margin: 0;
 }
 
 .header-h1{
     font-size: calc((3.5 - 1) * 1.2vw + 1rem);
-    line-height: 1.17;
+    line-height: 1.15;
     padding: 0 0 10px 0;
 }
 
@@ -33,17 +42,26 @@ body{
     padding: 10px 0 10px 0;
 }
 
-.header-button{
+.navigation-button, .header-button{
     color: white;
     background-color: #0d0;
     padding: 10px 20px;
-    margin: 17px 0 17px 6vw;
+    margin-left: 2vw;
     border: 0px;
     border-radius: 5px;
     font-size: 0.8em;
     font-weight: bold;
     
 }
+
+.header-button{
+    margin: 0 0 10vh 6.5vw;
+    font-size: 1.1em;
+}
+
+
+
+
 
 .statistic{
     padding: 70px 70px;
@@ -265,6 +283,15 @@ body{
 }
 
 @media only screen and (max-width: 768px) {
+
+    ul.full-screen{
+        display: none;
+    }
+
+    ul.medium-screen{
+        display: block;
+    }
+
     .copyright {
         padding: 0 0 40px 0;
     }

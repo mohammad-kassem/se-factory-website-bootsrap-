@@ -11,15 +11,16 @@
         <header>
             <div class="container-fluid header-background">
                 <div class="row-md-12 header-navbar">
-                    <nav class="navbar navbar-light">
+                    <nav class="navbar navbar-dark">
                         <a class="navbar-brand" href="https://sefactory.io/">
                             <img alt="logo" src="./assets/se-logo.png" width="80">
                         </a>
-                        <ul class="nav pl-auto">
-                            <li class=""nav-item>
+                        <!-- this will only appear for md screens-->
+                        <ul class="nav pl-auto full-screen">
+                            <li class="nav-item">
                                 <a class="nav-link" href="https://sefactory.io/"> Home </a>
                             </li>
-                            <li class="nav-item"></li>
+                            <li class="nav-item">
                                 <a class="nav-link" href="https://sefactory.io/get-trained"> Get Trained </a>
                             </li>
                             <li class="nav-item">
@@ -38,7 +39,14 @@
                                 <a class="nav-link" href="https://sefactory.io/contact"> Contact </a>
                             </li>
                             <li class="nav-item">
-                                <button type="button" class="btn btn-primary navbar-btn"> Apply Now</button>
+                                <button class="navigation-button"> Apply Now</button>
+                            </li>
+                        </ul>
+
+                        <!--this will appear for screen lower than middle-->
+                        <ul class="nav pl-auto medium-screen">
+                            <li class="nav-item">
+                                <img src="./assets/burger.png" width="80">
                             </li>
                         </ul>
                     </nav>
