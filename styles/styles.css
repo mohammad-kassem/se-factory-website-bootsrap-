@@ -181,6 +181,7 @@ body{
 
 .horizontal-rule{
     padding: 25px 150px;
+}
 
 .funding-partners-jumbotron h3{
     font-size: calc((2.5 - 1) * 1.2vw + 1rem);
@@ -196,6 +197,78 @@ body{
 .strategic-partners-jumbotron h3{
     font-size: calc((2.5 - 1) * 1.2vw + 1rem);
     font-weight: bold;
+}
+
+.subscribe-background{
+    background-color: #e6e6e6;
+    padding: 50px 50px;
+    margin: 50px 0 0 0;
+
+}
+
+.subscribe-jumbotron{
+    background: transparent;
+    padding: 0 0;
+
+}
+
+.subscribe-jumbotron h3{
+    font-size: calc((2.5 - 1) * 1.2vw + 1rem);
+}
+
+.subscribe-button{
+    color: white;
+    background-color: black;
+    padding: 15px 25px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 1.4vw;
+    margin: 25px 0;
+}
+
+.footer-background{
+    background-color: black;
+    align-items: center;
+    font-size: 1.1em;
+    
+}
+
+.privacy-policy{
+    text-align: left;
+    padding: 40px 0 40px 5%;
+}
+
+.copyright{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 40px 0 40px 0;
+}
+
+.social{
+    color: white;
+    text-align: right;
+    padding: 40px 0 40px 0;
+    margin-right: 5%;
+}
+
+.privacy-policy a{
+    color: #0d0;
+    text-decoration: underline;
+}
+
+.socials a{
+    display: block;
+    margin: 0 0;
+    color: white;
+    padding: 0 15px;
+}
+
+@media only screen and (max-width: 768px) {
+    .copyright {
+        padding: 0 0 40px 0;
+    }
+    
 }
 
 
